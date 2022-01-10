@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.logo-name {
+  color: rgb(41, 180, 235);
+}
+.headerBackground {
+  background-image: linear-gradient(
+      rgba(234, 194, 247, 0.1),
+      rgba(245, 242, 242, 0.1)
+    ),
+    url(/Contents/CoverPicture.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.headerBackground p {
+  position: absolute;
+  width: 1140;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 350%;
+  color: whitesmoke;
+}
+.headerBackground p b {
+  color: rgb(0, 183, 255);
+  text-shadow: 4px 4px rgb(31, 30, 30);
+}
