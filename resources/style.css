@@ -8,26 +8,74 @@ body {
 .logo-name {
   color: rgb(41, 180, 235);
 }
-.headerBackground {
+.cover-picture {
   background-image: linear-gradient(
-      rgba(234, 194, 247, 0.1),
-      rgba(245, 242, 242, 0.1)
+      to right,
+      rgba(106, 182, 233, 0.3),
+      rgba(245, 242, 242, 0.4)
     ),
-    url(/Contents/CoverPicture.jpg);
+    url(/Contents/coverPicture3.jpg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
 }
-.headerBackground p {
+.cover-text {
+  /* position: absolute;
+  width: 1140;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%); */
+  font-size: 100%;
+  color: rgb(41, 135, 197);
+}
+.cover-text-firstline {
+  position: absolute;
+  width: 1140;
+  top: 42%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.cover-text-secondline {
+  position: absolute;
+  width: 1140;
+  top: 50%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: black;
+}
+.cover-text-thirdline {
+  position: absolute;
+  width: 1140;
+  top: 57%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: black;
+}
+.cover-button {
   position: absolute;
   width: 1140;
   top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 350%;
-  color: whitesmoke;
+  left: 70%;
 }
-.headerBackground p b {
-  color: rgb(0, 183, 255);
-  text-shadow: 4px 4px rgb(31, 30, 30);
+.cover-button button {
+  background-color: rgb(41, 135, 197);
+}
+h2 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 200%;
+  text-align: center;
+}
+h2::after {
+  display: block;
+  height: 4px;
+  background-color: rgb(0, 183, 255);
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
