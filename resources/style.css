@@ -4,65 +4,95 @@
 }
 body {
   font-family: sans-serif;
+  font-size: 14px;
 }
+.header-address {
+  font-size: 14px;
+  color: gray;
+}
+.bi {
+  color: rgb(41, 180, 235);
+}
+.phone {
+  color: gray;
+  text-decoration-line: none;
+}
+
 .logo-name {
   color: rgb(41, 180, 235);
+  font-size: 24px;
+}
+.navbar {
+  font-size: 15px;
+}
+.nav-link:visited,
+.nav-link:link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link.active {
+  border-bottom: 2px solid rgb(41, 180, 235);
+}
+.navbar-item {
+  padding-right: 15px;
 }
 .cover-picture {
   background-image: linear-gradient(
       to right,
-      rgba(106, 182, 233, 0.3),
-      rgba(245, 242, 242, 0.4)
+      rgba(106, 182, 233, 0.1),
+      rgba(245, 242, 242, 0.6)
     ),
     url(/Contents/coverPicture3.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
+
+  margin-top: -15px;
 }
 .cover-text {
-  /* position: absolute;
-  width: 1140;
-  top: 60%;
-  left: 80%;
-  transform: translate(-50%, -50%); */
-  font-size: 100%;
-  color: rgb(41, 135, 197);
-}
-.cover-text-firstline {
-  position: absolute;
-  width: 1140;
-  top: 42%;
-  left: 78%;
+  top: 50%;
+  left: 34%;
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 38px;
+  color: rgb(41, 180, 235);
+}
+.cover-text-small {
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 38px;
+  color: rgb(41, 180, 235);
+  align-content: center;
 }
 .cover-text-secondline {
-  position: absolute;
-  width: 1140;
-  top: 50%;
-  left: 76%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
+  width: 100%;
   color: black;
 }
 .cover-text-thirdline {
-  position: absolute;
-  width: 1140;
-  top: 57%;
-  left: 78%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: black;
+  font-size: 16px;
+  color: rgb(31, 30, 30);
 }
+
 .cover-button {
-  position: absolute;
-  width: 1140;
-  top: 60%;
+  top: 45%;
   left: 70%;
 }
+.cover-button-smallscreen {
+  top: 55%;
+  left: 35%;
+  width: 500px;
+  padding: 20px;
+}
 .cover-button button {
-  background-color: rgb(41, 135, 197);
+  background-color: rgb(41, 180, 235);
+  font-size: 15px;
+}
+.cover-button-smallscreen button {
+  background-color: rgb(41, 180, 235);
+  font-size: 15px;
 }
 h2 {
   margin-top: 4%;
@@ -73,9 +103,61 @@ h2 {
 h2::after {
   display: block;
   height: 4px;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(41, 180, 235);
   content: " ";
-  width: 100px;
+  width: 70px;
   margin: 0 auto;
   margin-top: 30px;
+}
+.medical-icon {
+  font-size: 40px !important;
+  color: rgb(0, 183, 255);
+}
+.text-over-image {
+  color: #ffff;
+  border: 0.5px solid white;
+  padding: 8px;
+  border-right: none;
+  border-top: none;
+  font-size: 14px;
+}
+.card-doctor-name {
+  background-color: rgb(41, 180, 235);
+  color: #ffff;
+}
+h5 {
+  font-weight: 800;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.card-doctor-name p {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+.card {
+  border: none !important;
+  padding-bottom: 10px;
+}
+.our-team-section {
+  background-image: url(/contents/ourTeambackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.read-profile-button {
+  border: 2px solid rgb(41, 180, 235);
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  margin: 15px 145px;
+  border-left: none;
+}
+.our-services-para {
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+.read-profile-button:hover {
+  background-color: rgb(41, 180, 235);
+  color: #ffff;
 }

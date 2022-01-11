@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medina | Hospital</title>
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,178 +31,372 @@
     />
 
     <!-- ****** -->
-    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="stylesheet" href="./resources/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <!-- Top header Portion -->
-      <div class="container-fluid">
+      <div class="container-fluid bg-light">
         <div class="container">
-          <div class="row ">
-            <div class="col-2"></div>
-            <div class="col-3">
-                <div class="row">
-              <i class="bi bi-geo-alt col-1"></i>
-              <address class="col-11">4321 address,country</address>
-            </div>
-            </div>
-            <div class="col-3">
+          <div class="row header-address justify-content-end">
+            <!-- <div class="col-2"></div> -->
+            <div class="col-md-3 p-0 pt-2">
               <div class="row">
-              <i class="bi bi-alarm col-1"></i>
-              <p class="col-11">Monday - Sunday 08.00-19.00</p>
+                <i class="bi bi-geo-alt col-1"></i>
+                <address class="col-11">4321 address,country</address>
+              </div>
             </div>
-            </div>
-            <div class="col-3">
+            <div class="col-md-3 p-0 pt-2">
               <div class="row">
-              <i class="bi bi-telephone col-1"></i>
-              <a class="col-11"href="tel:+4733378901">+47 333 78 901</a>
+                <i class="bi bi-alarm col-1"></i>
+                <p class="col-11">Monday - Sunday 08.00-19.00</p>
+              </div>
             </div>
-            </div >
-            <div class="col-1"><i class="bi bi-bag"></i></div>
-          </div 1>
+            <div class="col-md-3 p-0 pt-2">
+              <div class="row">
+                <i class="bi bi-telephone col-1"></i>
+                <a class="col-11 phone" href="tel:+4733378901"
+                  >+47 333 78 901</a
+                >
+              </div>
+            </div>
+            <div class="col-md-1 p-0 pt-2"><i class="bi bi-bag"></i></div>
+          </div>
           <div class="container"></div>
         </div>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <nav
+          class="
+            navbar
+            sticky-top
+            fixed-top
+            navbar-expand-lg navbar-light
+            bg-white
+          "
+        >
           <div class="container">
-            <a class="navbar-brand" href="#"> <img src="/contents/logo2.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
-             <span class="logo-name">Medina</span> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/contents/logocropped.png"
+                alt=""
+                width="30"
+                height="30"
+                class="d-inline-block align-text-top"
+              />
+              <span class="logo-name align-text-top">Medina</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarScroll">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link active" aria-current="page" href="#header"
+                    >HOME</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PAGES</a>
+                  <a class="nav-link" href="#our-directions">PAGES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PROCEDURES</a>
+                  <a class="nav-link" href="#our-team">PROCEDURES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">GALLERY</a>
+                  <a class="nav-link" href="#our-team">GALLERY</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SHOP</a>
+                  <a class="nav-link" href="#services">SHOP</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">BLOG</a>
+                  <a class="nav-link" href="#ur-directions">BLOG</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACTS</a>
+                  <a class="nav-link" href="#services">CONTACTS</a>
                 </li>
-                
               </ul>
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+
+                <button class="btn btn-outline-primary d-flex" type="submit">
+                  <i class="bi bi-search"></i>
+                  <i class="bi bi-list"></i>
+                </button>
               </form>
             </div>
           </div>
         </nav>
-        <div class='cover-picture'>
-          <div class="cover-text">
-          <p><b class="cover-text-firstline">Helping You </b> <b class="cover-text-secondline">Stay Happy One </b> <i class=cover-text-thirdline>
-              Check Out Our Services!</i></p>
-            </div>
-            <div class="cover-button">
-              <button class="btn btn-primary">CHECK OUT</button>
-              <button class="btn btn-primary">MORE INFO</button>
-            </div>
+        <div class="cover-picture position-relative">
+          <div
+            class="
+              cover-text
+              position-relative
+              translate-middle
+              text-end
+              d-none d-lg-block
+            "
+          >
+            <p class="cover-text-firstline">Helping You</p>
+            <p class="cover-text-secondline">Stay Happy One</p>
+            <p class="cover-text-thirdline"><i> Check Out Our Services! </i></p>
+          </div>
+          <div
+            class="
+              cover-text-small
+              position-relative
+              translate-middle
+              text-end
+              d-lg-none
+            "
+          >
+            <p class="cover-text-firstline">Helping You</p>
+            <p class="cover-text-secondline">Stay Happy One</p>
+            <p class="cover-text-thirdline"><i> Check Out Our Services! </i></p>
+          </div>
+          <div class="cover-button d-none d-lg-block position-relative">
+            <button class="btn btn-primary">CHECK OUT</button>
+            <button class="btn btn-primary">MORE INFO</button>
+          </div>
+          <div class="cover-button-smallscreen d-lg-none position-relative">
+            <button class="btn btn-primary col-8">CHECK OUT</button>
+            <button class="btn btn-primary col-8 mt-2">MORE INFO</button>
+          </div>
         </div>
-        
       </div>
-      
     </header>
-    <section>
+    <section id="our-directions">
       <div class="container">
         <h2>Our Directions</h2>
         <div class="row">
-          <div class="col-4"><img src="/contents/directionspic1.jpg" alt="private clinic"height="300" width="400">
-            <p >Private Clinic</p></div>
-            <div class="col-4"><img src="/contents/directionspic2.jpg" alt="private clinic" height="300" width="400">
-              <p >Plastic Surgery</p></div>
-              <div class="col-4"><img src="/contents/directionspic33.jpg" alt="private clinic"height="300" width="400">
-                <p >Dental Clinic</p></div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 position-relative">
+            <img
+              src="/contents/directionspic1.jpg"
+              alt="private clinic"
+              height="300"
+              width="400"
+            />
+            <p
+              class="
+                position-absolute
+                top-50
+                start-50
+                translate-middle
+                text-over-image
+              "
+            >
+              PRIVATE CLINIC
+            </p>
+          </div>
+          <div class="d-lg-none">&nbsp;</div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 position-relative">
+            <img
+              src="/contents/directionspic2.jpg"
+              alt="private clinic"
+              height="300"
+              width="400"
+            />
+            <p
+              class="
+                position-absolute
+                top-50
+                start-50
+                translate-middle
+                text-over-image
+              "
+            >
+              PLASTIC SURGERY
+            </p>
+          </div>
+          <div class="d-xl-none">&nbsp;</div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 position-relative">
+            <img
+              src="/contents/directionspic33.jpg"
+              alt="private clinic"
+              height="300"
+              width="400"
+            />
+            <p
+              class="
+                position-absolute
+                top-50
+                start-50
+                translate-middle
+                text-over-image
+              "
+            >
+              DENTAL CLINIC
+            </p>
+          </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="container-fluid our-team-section" id="our-team">
       <div class="container">
         <h2>Our Team</h2>
         <div class="row">
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="/contents/coverPicture3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Dr.Sara Gray <small>SURGEON</small></h5>
-               <p class="card-text">Monday-Friday    8.00-17.00 Saturday 10.00-16.00 Sunday 12.00-14.00</p>
-                <a href="#" class="btn btn-primary">READ PROFILE</a>
+          <div class="col-xl-4 col-lg-6 col-md-12">
+            <div class="card">
+              <img
+                src="/contents/coverPicture2.jpg"
+                class="card-img-top"
+                alt="Surgeon"
+              />
+              <div class="card-header card-doctor-name text-center">
+                <h5>Dr.Sara Gray</h5>
+                <p>SURGEON</p>
               </div>
+              <ul class="list-group list-group-flush p-2 text-center">
+                <li class="list-group-item">Monday-Friday 8.00-17.00</li>
+                <li class="list-group-item">Saturday 10.00-16.00</li>
+                <li class="list-group-item">Sunday 12.00-14.00</li>
+              </ul>
+
+              <a href="#" class="text-center read-profile-button"
+                >READ PROFILE</a
+              >
+            </div>
+          </div>
+          <div class="d-lg-none">&nbsp;</div>
+          <div class="col-xl-4 col-lg-6 col-md-12">
+            <div class="card">
+              <img
+                src="/contents/nurse.jpg"
+                class="card-img-top"
+                alt="Surgeon"
+              />
+              <div class="card-header card-doctor-name text-center">
+                <h5>Emily Watson</h5>
+                <p>NURSE</p>
               </div>
+              <ul class="list-group list-group-flush p-2 text-center">
+                <li class="list-group-item">Monday-Friday 8.00-17.00</li>
+                <li class="list-group-item">Saturday 10.00-16.00</li>
+                <li class="list-group-item">Sunday 12.00-14.00</li>
+              </ul>
+
+              <a href="#" class="text-center read-profile-button"
+                >READ PROFILE</a
+              >
+            </div>
+          </div>
+          <div class="d-xl-none">&nbsp;</div>
+
+          <div class="col-xl-4 col-lg-6 col-md-12">
+            <div class="card">
+              <img
+                src="/contents/dentaldoctor.jpg"
+                class="card-img-top"
+                alt="Dentist"
+              />
+              <div class="card-header card-doctor-name text-center">
+                <h5>Dr.Emma Potter</h5>
+                <p>DENTIST</p>
               </div>
-              <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/contents/nurse.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Emily Watson  <small>NURSE</small></h5>
-                   <p class="card-text">Monday-Friday    8.00-17.00 Saturday 10.00-16.00 Sunday 12.00-14.00</p>
-                    <a href="#" class="btn btn-primary">READ PROFILE</a>
-                  </div>
-                </div>
-              </div>
-                  <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/contents/dentaldoctor.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Dr.Emma Potter <small>DENTIST</small></h5>
-                       <p class="card-text">Monday-Friday    8.00-17.00 Saturday 10.00-16.00 Sunday 12.00-14.00</p>
-                        <a href="#" class="btn btn-primary">READ PROFILE</a>
-                      </div>
+              <ul class="list-group list-group-flush p-2 text-center">
+                <li class="list-group-item">Monday-Friday 8.00-17.00</li>
+                <li class="list-group-item">Saturday 10.00-16.00</li>
+                <li class="list-group-item">Sunday 12.00-14.00</li>
+              </ul>
+
+              <a href="#" class="text-center read-profile-button"
+                >READ PROFILE</a
+              >
             </div>
           </div>
         </div>
+        <div>&nbsp;</div>
       </div>
     </section>
-    <section>
+    <section id="services">
       <div class="container">
         <h2>Our Services</h2>
         <div class="row">
-          <div class="col-6">
-            <div> 
-              <i></i>
-              <h3>Therapiya</h3>
-              <p>Sirus WordPress theme features a slick and clean design that is suitable for virtually any type of website</p></div> 
+          <div class="col-xl-6 col-lg-12">
+            <div class="row">
+              <i class="fa fa-stethoscope col-1 medical-icon"></i>
+              <div class="col-10">
+                <h5>Therapiya</h5>
+                <p class="our-services-para">
+                  Sirus WordPress theme features a slick and clean design that
+                  is suitable for virtually any type of website
+                </p>
+              </div>
             </div>
-            <div> 
-              <i></i>
-              <h3>Dentistry</h3>
-              <p>Sirus WordPress theme features a slick and clean design that is suitable for virtually any type of website</p></div> 
+            <div class="row">
+              <i class="fa fa-user-md col-1 medical-icon"></i>
+              <div class="col-10">
+                <h5>Dentistry</h5>
+                <p class="our-services-para">
+                  Sirus WordPress theme features a slick and clean design that
+                  is suitable for virtually any type of website
+                </p>
+              </div>
             </div>
-            <div> 
-              <i></i>
-              <h3>Viruslogy</h3>
-              <p>Sirus WordPress theme features a slick and clean design that is suitable for virtually any type of website</p></div> 
+            <div class="row">
+              <i class="bi bi-bug col-1 medical-icon"></i>
+              <div class="col-10">
+                <h5>Viruslogy</h5>
+                <p class="our-services-para">
+                  Sirus WordPress theme features a slick and clean design that
+                  is suitable for virtually any type of website
+                </p>
+              </div>
             </div>
-          <div class="col-6">
-            <div> 
-              <i></i>
-              <h3>Pharmocology</h3>
-              <p>Sirus WordPress theme features a slick and clean design that is suitable for virtually any type of website</p></div> 
-            </div>
-            <div> 
-              <i></i>
-              <h3>Cardiology</h3>
-              <p>Sirus WordPress theme features a slick and clean design that is suitable for virtually any type of website</p></div> 
-            </div>
-            <div> 
-              <i></i>
-              <h3>Eye surgery</h3>
-              <p>Sirus WordPress theme features a slick and clean design that is suitable for virtually any type of website</p></div> 
-            </div> 
           </div>
-          
+          <div class="col-xl-6 col-lg-12">
+            <div class="row">
+              <i class="fa fa-medkit col-1 medical-icon"></i>
+              <div class="col-10">
+                <h5>Pharmocology</h5>
+                <p class="our-services-para">
+                  Sirus WordPress theme features a slick and clean design that
+                  is suitable for virtually any type of website
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fa fa-heartbeat col-1 medical-icon"></i>
+              <div class="col-10">
+                <h5>Cardiology</h5>
+                <p class="our-services-para">
+                  Sirus WordPress theme features a slick and clean design that
+                  is suitable for virtually any type of website
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <i class="bi bi-eye col-1 medical-icon"></i>
+              <div class="col-10">
+                <h5>Eye surgery</h5>
+                <p class="our-services-para">
+                  Sirus WordPress theme features a slick and clean design that
+                  is suitable for virtually any type of website
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
