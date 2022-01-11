@@ -31,7 +31,9 @@
     />
 
     <!-- ****** -->
+    <!-- CSS style sheet -->
     <link rel="stylesheet" href="./resources/style.css" />
+    <!-- Fontawesome icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -41,37 +43,43 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
+    <!-- Header starts -->
     <header id="header">
       <!-- Top header Portion -->
       <div class="container-fluid bg-light">
         <div class="container">
+          <!-- Top panel with address, mobile numbers -->
           <div class="row header-address justify-content-end">
-            <!-- <div class="col-2"></div> -->
             <div class="col-md-3 p-0 pt-2">
               <div class="row">
+                <!-- address -->
                 <i class="bi bi-geo-alt col-1"></i>
                 <address class="col-11">4321 address,country</address>
               </div>
             </div>
             <div class="col-md-3 p-0 pt-2">
               <div class="row">
+                <!-- duration -->
                 <i class="bi bi-alarm col-1"></i>
                 <p class="col-11">Monday - Sunday 08.00-19.00</p>
               </div>
             </div>
             <div class="col-md-3 p-0 pt-2">
               <div class="row">
+                phone numbers
                 <i class="bi bi-telephone col-1"></i>
                 <a class="col-11 phone" href="tel:+4733378901"
                   >+47 333 78 901</a
                 >
               </div>
             </div>
+            <!-- shopping cart -->
             <div class="col-md-1 p-0 pt-2"><i class="bi bi-bag"></i></div>
           </div>
-          <div class="container"></div>
         </div>
+        <!-- Navbar menu -->
         <nav
           class="
             navbar
@@ -82,6 +90,7 @@
           "
         >
           <div class="container">
+            <!-- logo and company name -->
             <a class="navbar-brand" href="#">
               <img
                 src="/contents/logocropped.png"
@@ -90,8 +99,10 @@
                 height="30"
                 class="d-inline-block align-text-top"
               />
+
               <span class="logo-name align-text-top">Medina</span>
             </a>
+            <!-- For mobile view -->
             <button
               class="navbar-toggler"
               type="button"
@@ -108,6 +119,7 @@
                 class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
                 style="--bs-scroll-height: 100px"
               >
+                <!-- Navbar menu -->
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#header"
                     >HOME</a
@@ -132,6 +144,7 @@
                   <a class="nav-link" href="#services">CONTACTS</a>
                 </li>
               </ul>
+              <!-- navbar search -->
               <form class="d-flex">
                 <input
                   class="form-control me-2"
@@ -148,7 +161,9 @@
             </div>
           </div>
         </nav>
+        <!-- Header background cover picture -->
         <div class="cover-picture position-relative">
+          <!-- For larger screens -->
           <div
             class="
               cover-text
@@ -162,6 +177,7 @@
             <p class="cover-text-secondline">Stay Happy One</p>
             <p class="cover-text-thirdline"><i> Check Out Our Services! </i></p>
           </div>
+          <!-- For smaller screens -->
           <div
             class="
               cover-text-small
@@ -175,10 +191,12 @@
             <p class="cover-text-secondline">Stay Happy One</p>
             <p class="cover-text-thirdline"><i> Check Out Our Services! </i></p>
           </div>
+          <!-- button for larger screen -->
           <div class="cover-button d-none d-lg-block position-relative">
             <button class="btn btn-primary">CHECK OUT</button>
             <button class="btn btn-primary">MORE INFO</button>
           </div>
+          <!-- button for smaller screen -->
           <div class="cover-button-smallscreen d-lg-none position-relative">
             <button class="btn btn-primary col-8">CHECK OUT</button>
             <button class="btn btn-primary col-8 mt-2">MORE INFO</button>
@@ -186,10 +204,13 @@
         </div>
       </div>
     </header>
+    <!-- Header home page ends here -->
+    <!-- section:1 Our directions starts here -->
     <section id="our-directions">
       <div class="container">
         <h2>Our Directions</h2>
         <div class="row">
+          <!-- column 1:private clinic -->
           <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 position-relative">
             <img
               src="/contents/directionspic1.jpg"
@@ -210,6 +231,7 @@
             </p>
           </div>
           <div class="d-lg-none">&nbsp;</div>
+          <!-- column 2:plastic surgery -->
           <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 position-relative">
             <img
               src="/contents/directionspic2.jpg"
@@ -230,6 +252,7 @@
             </p>
           </div>
           <div class="d-xl-none">&nbsp;</div>
+          <!-- column 1:Dental clinic -->
           <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 position-relative">
             <img
               src="/contents/directionspic33.jpg"
@@ -252,10 +275,13 @@
         </div>
       </div>
     </section>
+    <!-- section:1 Our directions ends here -->
+    <!-- section:2 Our team starts here -->
     <section class="container-fluid our-team-section" id="our-team">
       <div class="container">
         <h2>Our Team</h2>
         <div class="row">
+          <!-- column:1 Doctor 1 -->
           <div class="col-xl-4 col-lg-6 col-md-12">
             <div class="card">
               <img
@@ -279,6 +305,7 @@
             </div>
           </div>
           <div class="d-lg-none">&nbsp;</div>
+          <!-- column:2 Doctor 2 -->
           <div class="col-xl-4 col-lg-6 col-md-12">
             <div class="card">
               <img
@@ -302,7 +329,7 @@
             </div>
           </div>
           <div class="d-xl-none">&nbsp;</div>
-
+          <!-- column:3 Doctor 3 -->
           <div class="col-xl-4 col-lg-6 col-md-12">
             <div class="card">
               <img
@@ -329,10 +356,14 @@
         <div>&nbsp;</div>
       </div>
     </section>
+    <!-- section:2 Our team starts here -->
+    <!-- section:3 Our Services starts here -->
+
     <section id="services">
       <div class="container">
         <h2>Our Services</h2>
         <div class="row">
+          <!-- column:1  -->
           <div class="col-xl-6 col-lg-12">
             <div class="row">
               <i class="fa fa-stethoscope col-1 medical-icon"></i>
@@ -365,6 +396,7 @@
               </div>
             </div>
           </div>
+          <!-- column:2 -->
           <div class="col-xl-6 col-lg-12">
             <div class="row">
               <i class="fa fa-medkit col-1 medical-icon"></i>
@@ -400,5 +432,6 @@
         </div>
       </div>
     </section>
+    <!-- section:3 Our Services ends here -->
   </body>
 </html>
